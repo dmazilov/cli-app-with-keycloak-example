@@ -50,11 +50,11 @@ What you need to install the software:
    <details>
       <summary>Click to show Keycloak client settings screenshots</summary>
       
-      ![](static/image.png) 
+      ![](assets/images/image.png) 
 
-      ![](static/image-1.png)
+      ![](assets/images/image-1.png)
 
-      ![](static/image-2.png)
+      ![](assets/images/image-2.png)
 
    </details>
         
@@ -77,6 +77,11 @@ A step-by-step series of examples that tell you how to get a development environ
    go run main.go 
    ```
 
+### Sequence diagramm
+
+For greater transparency and understanding, I have prepared a sequence diagram that reflects the entire process of interaction between the CLI pplication (OIDC Client), Keycloak (OIDC Identity Provider) and Secured server (OIDC Service Provider)
+
+![](assets/images/diagram.svg)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
